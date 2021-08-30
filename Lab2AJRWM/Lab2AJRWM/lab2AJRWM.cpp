@@ -7,9 +7,26 @@
 //***********************************************************************************
 
 /*
-* Psuedocode
-* 
-*/
+*Our Algorithm
+* 1. We need to create a calculator that finds acceleration 
+*	 with a given formula in meters per second squared
+* 2. MPH2MPS= 1609 / 3600
+*	 a= accel = vel / userTime
+*	 v= velocity in milers per hour ; user input (vel)
+*	 t= time in seconds ; user input (userTime)
+*	 constant double= MPH2MPS = 1609 / 3600	
+*	 converts miles per hour to meters per second
+* 3. Prompt for vel
+*	 Prompt for userTime
+* 4. Receive vel
+*	 Receive userTime
+* 5. Doubles are input into given rounding formula
+*	 accel x MPH2MPS 
+*	 Answer is calculated in meters per second squared
+*	 Answer is then rounded to two decimal places
+*	 Final answer is given
+* 6. Final answer (accel) is given
+*/	
 
 #include <iostream>
 #include <iomanip>
